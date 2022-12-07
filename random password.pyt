@@ -24,7 +24,7 @@ for i in password:
     else:
         count_spl_char = count_spl_char+1
 print("No. of special characters are:",count_spl_char)
-if(count_spl_char>=1 and length>=12):
+if(count_spl_char>=3 and length>=12):
     print("Therefore your generated password is safe")
 else:
     print("Therefore your generated password is not safe")
